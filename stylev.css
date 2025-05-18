@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding-left: 365px ;
+    font-family: cursive;
+    font-size: 25px;
+    /*text-align: center;*/
+    background-image: url(backourM.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.wrapper{
+    width: 400px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, .9);
+    color: #333;
+    border-radius: 10px;
+    padding: 50px 100px;
+    align-items: center;
+}

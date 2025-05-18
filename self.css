@@ -1,0 +1,13 @@
+body{
+  margin: 2px;
+  padding: 10px 10px;
+   /* display: flex;*/
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(sel.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-style: oblique;
+}

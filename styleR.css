@@ -1,0 +1,82 @@
+* { 
+    margin-top: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background: rgba(184, 155, 10, 0.2);
+}
+.wrapper{
+    width: 420px;
+    background: url(1743602602671.jpg);
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(9);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .2);
+    color: black;
+    border-radius: 10px;
+    padding: 50px 30px;
+}
+.wrapper h2{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 50%;
+    background: bisque ;
+    border: none;
+    outline: none;
+    border: 3px solid rgba(255, 255, 255, .1);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #333;
+    padding: 20px 15px 20px 20px;
+}
+.input-box input::placeholder{
+    color: #333;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.wrapper .btn{
+    width: 100%;
+    height: 35px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.wrapper .Login{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.Login p a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.Login p a:hover {
+    text-decoration: underline;
+}

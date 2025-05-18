@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    font-family:cursive;
+    font-size: x-large;
+    background-color: #e8f6f4;
+    text-align: center;
+    background-image: url(backourM.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+    
+
